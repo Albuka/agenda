@@ -1,0 +1,798 @@
+/* Responsive CSS
+ * Author : MAQK
+ * Author URI : www.aivahthemes.com
+======================================================================== */
+
+/* Mobile Menu
+======================================================================== */
+@media only screen and (max-width: 959px) {
+
+	.iva_time_table{ display:none; }
+	.iva_tt_responsive{ display:block; }
+	.iva-mobile-dropdown {
+		display:block;
+		margin:0 0 0 auto;
+		height: 35px;
+		width: 40px;
+		position: relative;
+		cursor: pointer;
+		display: block;
+		background: transparent url(../images/menu-icon.png) 0 0 no-repeat;
+	}
+	.span.iva-children-indenter i { display:block; }
+
+	.sf-menu { display: none !important; }
+	#atp_menu { dispaly:none  !important;}
+	figure img { width: auto; max-width: 100%; height: auto; }
+	.sidemenu { border-right: 10px; }
+
+	.fancyheading .large { font-size: 220% !important; }
+	.fancyheading .xlarge { font-size: 320% !important; }
+	
+	.header-style2 .primarymenu,
+	.header-style3 .primarymenu,
+	.header-style4 .primarymenu { background: none !important;}
+
+}
+
+/* Regular Desktop Resolution 
+======================================================================== */
+
+@media only screen and (min-width : 1025px) and (max-width : 1169px) {
+	
+	figure img { width: auto; max-width: 100%; height: auto; }
+
+	.inner,
+	.pagemid > .inner,
+	.section_inner,
+	.videoslider,
+	.header-area,
+	.menu-inner,
+	.subheader-inner,
+	.iva_appt_inner {  width: 100%;  }
+
+	.leftsidebar .content-area,
+	.rightsidebar .content-area { width:690px; }
+
+	.boxed #wrapper { width: 100% !important; }
+	#boxed #wrapper { width: auto !important; }
+
+	.header-style2 .menu-inner { width: auto !important; }
+	.section_bg { background-image: none !important;}
+
+}
+
+/*  iPad Landscape Small and Desktop Resolution
+======================================================================== */
+@media only screen and (min-width : 960px) and (max-width : 1024px) {
+	
+	.iva_time_table{ display:none; }
+	.iva_tt_responsive{ display:block; }
+
+	figure img { width: auto; max-width: 100%; height: auto; }
+	.fixed-header { position:relative; }
+	
+	.inner,
+	.pagemid > .inner,
+	.section_inner,
+	.videoslider,
+	.header-area,
+	.iva_mmenu,
+	.menu-inner,
+	.subheader-inner,
+	.iva_appt_inner {  width: 88%;  }
+
+	.leftsidebar .content-area,
+	.rightsidebar .content-area { width:640px; }
+
+	.rightsidebar #sidebar { width: 230px; }
+	.iva_appt_time_slots { width:50%; }
+
+	.header .menu-dropdown {  display: block; right: 0px !important; float: right; }
+	#sf-mobilemenu { float:right; width:100%;}
+	#sf-mobilemenu ul::after { border-bottom: 10px solid transparent !important; }
+
+	.flex-caption, 
+	.header-style4 .search-box { display:none !important; } 
+	.header-style2 .logo { display:inline-block;}
+
+	.boxed #wrapper { width: 100% !important; }
+	#boxed #wrapper { width: auto !important; }
+
+	.fancyheading .large { font-size: 30px !important; }
+	.section_bg { background-image: none !important;}
+	.section_inner .two_third { width:100%;  margin-right:0; }
+
+}
+
+/* iPad Portrait
+======================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	figure img { width: auto; max-width: 100%; height: auto; }
+	
+	.fixed-header { position:relative; }
+	.iva_mmenu .iva_menuicon,
+	.sf-menu .iva_menuicon { display:none; }
+
+	.inner,
+	.pagemid > .inner,
+	.videoslider,
+	.header-area,
+	.iva_mmenu,
+	.menu-inner,
+	.subheader-inner,
+	.iva_mmenu,
+	.iva_appt_inner {  width: 88%; max-width:700px; }
+
+	.leftsidebar .content-area,
+	.rightsidebar .content-area { float:none; width:100% !important; }
+	.section_inner { width:640px; }
+
+	.rightsidebar #sidebar,
+	.leftsidebar #sidebar { float:none; width:100% !important; }
+
+	.rightsidebar #sidebar .content {padding-left:0;}
+	.leftsidebar #sidebar .content {padding-right:0;}
+	.sidebar-left { margin-left: 0px !important; }
+	body.boxed.vertical_leftmenu { padding-left:0px !important; }
+	.col_fourth { width:49% !important;}
+
+	.header-style2 .menu-inner { width: auto !important; }
+	.header-style2 .mobile-menu-wrap { display: table-cell; margin: 0 0 0 auto; padding: 0; position: relative; vertical-align: middle; }
+	.header-style2 .logo { display: table-cell; margin:0 auto 0 0; }
+
+	.section_inner .two_third,
+	.section_inner .three_fourth { width:100%;  margin-right:0; }
+     span.iva-children-indenter i { display:block; }
+	.iva_appt_time_slots { width:50%; }
+
+	.doctors-meta,
+	.doctors-hwrap { width: 100% !important; }
+
+	.flex-caption, 
+	.header-style4 .search-box { display:none !important; } 
+	.header-style2 .logo { display:inline-block;}
+	
+	.boxed #wrapper { width: 100% !important; }
+	#boxed #wrapper { width: auto !important; }
+
+	/* Footer 2 Columns */
+	.one_fifth,
+	.one_sixth,
+	.two_fifth,
+	.one_fourth { width: 48%; }
+	.four_fifth,
+	.three_fifth,
+	.three_fourth { width: 100%; }
+
+	.appt_calendar_col,
+	.appt_patient_col,
+	.appt_booking_col { width: 100% !important; margin-right: 0 !important; }
+
+	.appt_calendar_col .input_large,
+	.appt_patient_col .input_large,
+	.appt_booking_col .input_large { width: 100% !important; }
+
+	#footer .one_sixth,
+	#footer .one_fifth,
+	#footer .one_fourth,
+	#footer .one_third { width:48%; }
+	#footer .col_even { margin-right: 0 !important;}
+
+	.tc-details { float:none; margin-bottom:15px;}
+
+	/* Verticle Menu */
+	.sidemenu {
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+	}
+	.atp_vertical_menu{
+		display: none;
+	}
+
+	.vertical_footerbar {
+		display: none;
+	}
+
+	.iva-children-indenter { display: block !important; }
+	.sidemenu .logo { border-bottom: 0; display: table-cell; float: left; }
+	.sidemenu .header-area { width: 80%; }
+
+	.menu-area {
+		display: table-cell;
+		margin: auto;
+		padding: 0;
+		position: relative;
+		vertical-align: middle;
+	}
+
+	.pricetable .column { width: 49%; }
+
+	.doctor-item { display:table; margin:0 auto; }
+	.dept-list.col_even { margin-right: 0 !important; }
+
+}
+
+/* Smartphones & iPhone 4s(landscape)
+======================================================================== */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	figure img { width: auto; max-width: 100%; height: auto; }
+
+	.fixed-header { position:relative; }
+	.iva_mmenu .iva_menuicon,
+	.sf-menu .iva_menuicon { display:none; }
+	
+	#stretched #wrapper,
+	.boxed #wrapper,
+	#boxed #wrapper { width:100% !imporatant; }
+
+	.inner,
+	.pagemid > .inner,
+	.section_inner,
+	.videoslider,
+	.iva_mmenu,
+	.menu-inner,
+	.header-area,
+	.subheader-inner,
+	.iva_appt_inner {  width: 320px;  }
+
+	.leftsidebar .content-area,
+	.rightsidebar .content-area { width:320px; }
+
+	.rightsidebar #sidebar,
+	.leftsidebar #sidebar { float:left; width:100%; }
+	.rightsidebar #sidebar .content {padding-left:0;}
+	.leftsidebar #sidebar .content {padding-right:0;}
+	.sidebar-left { margin-left: 0px !important; }
+	body.boxed.vertical_leftmenu { padding-left:0px !important; }
+
+	.one_half,
+	.one_third, 
+	.two_third,
+	.one_fourth, 
+	.one_fifth,
+	.four_fifth,
+	.one_sixth,
+	.five_sixth,
+	.two_fifth,
+	.three_fifth,
+	.three_fourth { width: 100%;  margin-right:0; }
+	 span.iva-children-indenter i { display:block; }
+	.section_bg { background-image: none !important;}
+     span.iva-children-indenter i { display:block; }
+
+	.logo { display: table-cell; margin: 0 auto;  }
+
+	.topbar * { text-align:center !important; }
+	.topbar { line-height:22px; padding:15px 0; }
+
+	.header-style2 .menu-inner { width: auto !important; }
+
+	.header-style2 .primarymenu { border: none; display: table-cell; margin: 0 0 0 auto; padding: 0; position: relative; vertical-align: middle; }
+	.header-style2 .logo { display: table-cell; margin:0 auto 0 0; }
+	.header-style4 .iva-mobile-dropdown,
+	.header-style3 .iva-mobile-dropdown { margin:24px 0 0 auto; }
+
+	.copyright_left, 
+	.topbar .iva_socials,
+	.copyright_right { width:100%; float:none !important; text-align:center; }
+
+	.pricetable .column { float: none; width: 100%; border-width:1px; margin-bottom: 20px; }
+
+	/* Custom Post Templates  */
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth { float: none !important; width:100% !important; margin: 0 auto !important; }
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth{ margin-bottom: 20px !important; }
+
+	.doctor-details { padding: 0 20px; }
+
+	.drlist-Header {display: none; }
+	.drlist-Row { display: block; }
+	.drlist-photo { width:150px; float:left; display: inline-block !important;}
+	.drlist-photo img { width:70px; height:70px; }
+	.drlist-details { overflow: hidden; width: auto; text-align: left; display:block; float:none; }
+	.drlist-details .drlist-item { display: block; width: auto !important;}
+	.post-metadata { display: none; }
+
+	.drlist-name,
+	.drlist-specialty,
+	.drlist-location,
+	.drlist-socials   { width:auto; text-align:left;}
+
+	.iva-date-wrap .col_half { width: 50% !important;}
+
+	.iva_appt_time_slots { width: 33.3%; }
+
+	.breadcrumb-wrap { left: 0; }
+
+	#subheader .page-title { font-size: 28px; line-height:32px; }
+	.subheader-inner { padding:30px 0; height:120px; }
+
+	.iva_one_half { width:100%;}
+	.iva-testimonial { display:block; border-width:0 0 1px 0; }
+
+	.vertabs .tabs { float: none; width:100%; }
+	.vertabs .tabs li { border-width:1px 1px 0; }
+	.vertabs .tabs li:last-child { border-width:1px 1px 1px 1px; }
+
+	.dept-image { display:none; }
+	.dept-details { width: 100%; }
+	
+	.iva-np-title { display:none;}
+	.iva-np-allitems,
+	.iva-np-navs { width: 160px;}
+
+	.flex-caption,
+	.header-style4 .search-box { display:none !important; } 
+	.tc-details { float: none; margin-bottom: 15px; }	
+
+	/* New Fixes */
+	.fancyheading .xlarge { font-size: 30px !important; }
+	.fancyheading .large { font-size: 26px !important; }
+	.vertabs .tabs li, .hortabs .tabs li { width: 100%; float: none; }
+	.flexslider	 { min-height: 0!important; }
+
+	/* Verticle Menu */
+	.sidemenu {
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+	}
+	.atp_vertical_menu{
+		display: none;
+	}
+
+	.vertical_footerbar {
+		display: none;
+	}
+
+	.iva-children-indenter { display: block !important; }
+	.sidemenu .logo { border-bottom: 0; display: table-cell; float: left; }
+	.sidemenu .header-area { width: 80%; }
+
+	.menu-area {
+		display: table-cell;
+		margin: auto;
+		padding: 0;
+		position: relative;
+		vertical-align: middle;
+	}
+
+}
+
+/* iPhone 5s(landscape)
+======================================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	figure img { width: auto; max-width: 100%; height: auto; }
+
+	.fixed-header { position:relative; }
+	.iva_mmenu .iva_menuicon,
+	.sf-menu .iva_menuicon { display:none; }
+	
+	#stretched #wrapper,
+	.boxed #wrapper,
+	#boxed #wrapper { width: 100% !important; }
+
+	.inner,
+	.pagemid > .inner,
+	.section_inner,
+	.videoslider,
+	.header-area,
+	.subheader-inner,
+	.iva_appt_inner ,
+	.iva_mmenu,
+	.menu-inner { width: 80%; }
+
+	.leftsidebar .content-area,
+	.rightsidebar .content-area { width: 100%; }
+
+	.rightsidebar #sidebar,
+	.leftsidebar #sidebar { float:left; width:100%; }
+	.rightsidebar #sidebar .content {padding-left:0;}
+	.leftsidebar #sidebar .content {padding-right:0;}
+	.sidebar-left { margin-left: 0px !important; }
+	body.boxed.vertical_leftmenu { padding-left:0px !important; }
+
+	.one_half,
+	.one_third, 
+	.two_third,
+	.one_fourth, 
+	.one_fifth,
+	.four_fifth,
+	.one_sixth,
+	.five_sixth,
+	.two_fifth,
+	.three_fifth,
+	.three_fourth { width: 100%;  margin-right:0; }
+
+	.logo { display: table-cell; margin: 0 auto; }
+
+	.section_bg { background-image: none !important;}
+
+	.topbar * { text-align:center !important; float: none !important; }
+	.topbar { line-height:22px; padding:15px 0; }
+
+	.copyright_left, 
+	.copyright_right { width:100%; float:none; text-align:center; }
+
+	.pricetable .column { float: none; width: 100%; border-width:1px; margin-bottom: 20px; }
+
+	/* Custom Post Templates  */
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth { float: none !important; width:100% !important; margin: 0 auto !important; }
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth{ margin-bottom: 20px !important; }
+
+	.doctor-details { padding: 0 20px; }
+
+	.drlist-Header {display: none; }
+	.drlist-Row { display: block; }
+	.drlist-photo { width:150px; float:left; display: inline-block !important;}
+	.drlist-photo img { width:70px; height:70px; }
+	.drlist-details { overflow: hidden; width: auto; text-align: left; display:block; float:none; }
+	.drlist-details .drlist-item { display: block; width: auto !important;}
+	.post-metadata { display: none; }
+
+	.drlist-name,
+	.drlist-specialty,
+	.drlist-location,
+	.drlist-socials   { width:auto; text-align:left;}
+
+	.iva-date-wrap .col_half { width: 50% !important;}
+
+	.iva_appt_time_slots { width: 33.3%; }
+
+	.breadcrumb-wrap { left: 0; }
+	 span.iva-children-indenter i { display:block; }
+	#subheader .page-title { font-size: 28px; line-height:32px; }
+	.subheader-inner { padding:30px 0; height:120px; }
+
+	.header-style2 .menu-inner { width: auto !important; }
+	.header-style2 .primarymenu { border: none; display: table-cell; margin: 0 0 0 auto; padding: 0; position: relative; vertical-align: middle; }
+	.header-style2 .logo { display: table-cell; margin:0 auto 0 0; }
+	.header-style4 .iva-mobile-dropdown,
+	.header-style3 .iva-mobile-dropdown { margin:24px 0 0 auto; }
+
+	.iva_one_half { width:100%;}
+	.iva-testimonial { display:block; border-width:0 0 1px 0; }
+
+	.vertabs .tabs { float: none; width:100%; }
+	.vertabs .tabs li { border-width:1px 1px 0; }
+	.vertabs .tabs li:last-child { border-width:1px 1px 1px 1px; }
+
+	.dept-image { display:none; }
+	.dept-details { width: 100%; }
+	
+	.iva-np-title { display:none;}
+	.iva-np-allitems,
+	.iva-np-navs { width: 160px;}
+
+	.flex-caption,
+	.header-style4 .search-box { display:none !important; } 
+
+	.tc-details { float: none; margin-bottom: 15px; }
+	.header-style2 .menu-dropdown { margin-top: 30px;}
+
+	/* New Fixes */
+	.fancyheading .xlarge { font-size: 30px !important; }
+	.fancyheading .large { font-size: 26px !important; }
+	.vertabs .tabs li, .hortabs .tabs li { width: 100%; float: none; }
+
+	/* Verticle Menu */
+	.sidemenu {
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+	}
+	.atp_vertical_menu{
+		display: none;
+	}
+
+	.vertical_footerbar {
+		display: none;
+	}
+
+	.iva-children-indenter { display: block !important; }
+	.sidemenu .logo { border-bottom: 0; display: table-cell; float: left; }
+	.sidemenu .header-area { width: 80%; }
+
+	.menu-area {
+		display: table-cell;
+		margin: auto;
+		padding: 0;
+		position: relative;
+		vertical-align: middle;
+	}
+
+}
+
+/* Smartphones  & iPhone 4s (portrait) 
+======================================================================== */
+@media only screen and (max-width : 320px) {
+
+	figure img { width: auto; max-width: 100%; height: auto; }
+
+	.fixed-header { position:relative; }
+	.iva_mmenu .iva_menuicon,
+	.sf-menu .iva_menuicon { display:none; }
+
+	#stretched #wrapper,
+	.boxed #wrapper,
+	#boxed #wrapper { width:320px !important; }
+
+	.inner,
+	.pagemid > .inner,
+	.section_inner,
+	.videoslider,
+	.header-area,
+	.iva_mmenu,
+	.menu-inner,
+	.subheader-inner,
+	.iva_appt_inner {  width: 300px;  }
+
+	.leftsidebar .content-area,
+	.rightsidebar .content-area { width:300px; }
+
+	.rightsidebar #sidebar,
+	.leftsidebar #sidebar { float:left; width:100%; }
+	.rightsidebar #sidebar .content {padding-left:0;}
+	.leftsidebar #sidebar .content {padding-right:0;}
+	.sidebar-left { margin-left: 0px !important; }
+	body.boxed.vertical_leftmenu { padding-left:0px !important; }
+
+	.one_half,
+	.one_third, 
+	.two_third,
+	.one_fourth, 
+	.one_fifth,
+	.four_fifth,
+	.one_sixth,
+	.five_sixth,
+	.two_fifth,
+	.three_fifth,
+	.three_fourth { width:300px;  margin-right:0; }
+
+	.section_bg { background-image: none !important;}
+	.logo { display: table-cell; margin: 0 auto;}
+
+	.topbar * { text-align:center !important; }
+	.topbar { line-height:22px; padding:15px 0; }
+
+	.copyright_left, 
+	.copyright_right { width:100%; float:none; text-align:center; }
+
+	.pricetable .column { float: none; width: 100%; border-width:1px; margin-bottom: 20px; }
+
+	/* Custom Post Templates  */
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth { float: none !important; width:100% !important; margin: 0 auto !important; }
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth{ margin-bottom: 20px !important; }
+
+	.doctor-details { padding: 0 20px; }
+	.vr_dr_separator { display:none; }
+
+	.drlist-Header {display: none; }
+	.drlist-Row { display: block; }
+	.drlist-photo { width:150px; float:left; display: inline-block !important;}
+	.drlist-photo img { width:70px; height:70px; }
+	.drlist-details { overflow: hidden; width: auto; text-align: left; display:block; float:none; }
+	.drlist-details .drlist-item { display: block; width: auto !important;}
+	.post-metadata { display: none; }
+
+	.drlist-name,
+	.drlist-specialty,
+	.drlist-location,
+	.drlist-socials   { width:auto; text-align:left;}
+
+	.iva-date-wrap .col_half { width: 50% !important;}
+
+	.iva_appt_time_slots { width: 33.3%; }
+
+	.breadcrumb-wrap { left: 0; }
+
+	#subheader .page-title { font-size: 28px; line-height:32px; }
+	.subheader-inner { padding:30px 0; height:120px; }
+	.header-style2 .inner { width: auto !important; }
+
+	.header-style2 .primarymenu { border: none; display: table-cell; margin: 0 0 0 auto; padding: 0; position: relative; vertical-align: middle; }
+	.header-style2 .logo { display: table-cell; margin:0 auto 0 0; }
+	.header-style4 .iva-mobile-dropdown,
+	.header-style3 .iva-mobile-dropdown { margin:24px 0 0 auto; }
+
+	.iva_one_half { width:100%;}
+	.iva-testimonial { display:block; border-width:0 0 1px 0; }
+
+	.vertabs .tabs { float: none; width:100%; }
+	.vertabs .tabs li { border-width:1px 1px 0; }
+	.vertabs .tabs li:last-child { border-width:1px 1px 1px 1px; }
+
+	.dept-image { display:none; }
+	.dept-details { width: 100%; }
+
+	.iva-np-title { display:none;}
+	.iva-np-allitems,
+	.iva-np-navs { width: 160px;}
+
+	.doctor-custom-meta span, .doctor-meta > span {display:block;}
+
+	.flex-caption, 
+	.header-style4 .search-box { display:none !important; } 
+
+	.tc-details { float: none; margin-bottom: 15px; }
+	.header-style2 .menu-dropdown { margin-top: 30px;}
+
+	/* New Fixes */
+	.fancyheading .xlarge { font-size: 30px !important; }
+	.fancyheading .large { font-size: 26px !important; }
+	.vertabs .tabs li, .hortabs .tabs li { width: 100%; float: none; }	 
+
+	.iva-children-indenter { display: block !important; }
+
+	/* Verticle Menu */
+	.sidemenu {
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+	}
+	.atp_vertical_menu{
+		display: none;
+	}
+
+	.vertical_footerbar {
+		display: none;
+	}
+
+	.iva-children-indenter { display: block !important; }
+	.sidemenu .logo { border-bottom: 0; display: table-cell; float: left; }
+	.sidemenu .header-area { width: 80%; }
+
+	.menu-area {
+		display: table-cell;
+		margin: auto;
+		padding: 0;
+		position: relative;
+		vertical-align: middle;
+	}
+
+}
+
+/* Small Mobile Devices
+======================================================================== */
+@media only screen and (min-width: 240px) and (max-width: 319px) {
+
+	figure img { width: auto; max-width: 100%; height: auto; }
+
+	.fixed-header { position:relative; }
+	.iva_mmenu .iva_menuicon,
+	.sf-menu .iva_menuicon { display:none; }
+	
+	#stretched #wrapper,
+	.boxed #wrapper,
+	#boxed #wrapper { width: 100% !important; }
+
+	.inner,
+	.pagemid > .inner,
+	.section_inner,
+	.videoslider,
+	.header-area,
+	.menu-inner,
+	.subheader-inner,
+	.iva_mmenu,
+	.iva_appt_inner ,
+	.leftsidebar .content-area,
+	.rightsidebar .content-area { width: 200px; }
+
+	.rightsidebar #sidebar,
+	.leftsidebar #sidebar { float:left; width:100%; }
+	.rightsidebar #sidebar .content {padding-left:0;}
+	.leftsidebar #sidebar .content {padding-right:0;}
+	.sidebar-left { margin-left: 0px !important; }
+	body.boxed.vertical_leftmenu { padding-left:0px !important; }
+
+	.one_half,
+	.one_third, 
+	.two_third,
+	.one_fourth, 
+	.one_fifth,
+	.four_fifth,
+	.one_sixth,
+	.five_sixth,
+	.two_fifth,
+	.three_fifth,
+	.three_fourth { width: 200px;  margin-right:0; }
+
+	.section_bg { background-image: none !important;}
+	 span.iva-children-indenter i { display:block; }
+	.logo { display: table-cell; margin: 0 auto; }
+
+	.header-style2 .menu-inner { width: auto !important; }
+	.header-style2 .primarymenu { border: none; display: table-cell; margin: 0 0 0 auto; padding: 0; position: relative; vertical-align: middle; }
+	.header-style2 .logo { display: table-cell; margin:0 auto 0 0; }
+
+	.topbar * { text-align:center !important; }
+	.topbar { line-height:22px; padding:15px 0; }
+
+	.copyright_left, 
+	.copyright_right { width:100%; float:none; text-align:center; }
+
+	.pricetable .column { float: none; width: 100%; border-width:1px; margin-bottom: 20px; }
+
+	/* Custom Post Templates  */
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth { float: none !important; width:100% !important; margin: 0 auto !important; }
+	.col_half, .col_third, .col_twothird, .col_three_fourth, .col_fourth, .col_fifth{ margin-bottom: 20px !important; }
+
+	.doctor-details { padding: 0 20px; }
+
+	.drlist-Header {display: none; }
+	.drlist-Row { display: block; }
+	.drlist-photo { width:150px; float:left; display: inline-block !important;}
+	.drlist-photo img { width:70px; height:70px; }
+	.drlist-details { overflow: hidden; width: auto; text-align: left; display:block; float:none; }
+	.drlist-details .drlist-item { display: block; width: auto !important;}
+	.post-metadata { display: none; }
+
+	.drlist-name,
+	.drlist-specialty,
+	.drlist-location,
+	.drlist-socials   { width:auto; text-align:left;}
+
+	.iva-date-wrap .col_half { width: 50% !important;}
+
+	.iva_appt_time_slots { width: 33.3%; }
+
+	.breadcrumb-wrap { left: 0; }
+
+	#subheader .page-title { font-size: 28px; line-height:32px; }
+	.subheader-inner { padding:30px 0; height:120px; }
+
+	.iva_one_half { width:100%;}
+	.iva-testimonial { display:block; border-width:0 0 1px 0; }
+
+	.vertabs .tabs { float: none; width:100%; }
+	.vertabs .tabs li { border-width:1px 1px 0; }
+	.vertabs .tabs li:last-child { border-width:1px 1px 1px 1px; }
+
+	.dept-image { display:none; }
+	.dept-details { width: 100%; }
+	
+	.iva-np-title { display:none;}
+	.iva-np-allitems,
+	.iva-np-navs { width: 160px;}
+
+	.flex-caption,
+	.header-style4 .search-box { display:none !important; } 
+
+	.tc-details { float: none; margin-bottom: 15px; }
+
+	/* New Fixes */
+	.fancyheading .xlarge { font-size: 30px !important; }
+	.fancyheading .large { font-size: 26px !important; }
+	.vertabs .tabs li, .hortabs .tabs li { width: 100%; float: none; }
+
+	/* Verticle Menu */
+	.sidemenu {
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+	}
+	.atp_vertical_menu{
+		display: none;
+	}
+
+	.vertical_footerbar {
+		display: none;
+	}
+
+	.iva-children-indenter { display: block !important; }
+	.sidemenu .logo { border-bottom: 0; display: table-cell; float: left; }
+	.sidemenu .header-area { width: 80%; }
+
+	.menu-area {
+		display: table-cell;
+		margin: auto;
+		padding: 0;
+		position: relative;
+		vertical-align: middle;
+	}
+
+}
